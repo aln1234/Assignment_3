@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+  
+@tailwind utilities;
+
+
+@layer base {
+  body{
+    @apply bg-[#f4f4f4] bg-no-repeat bg-left-top bg-opacity-0 
+  }
+}
+
+
+@layer components {
+  .navbar {
+    @apply font-mono text-[18px] text-[#333132] cursor-pointer
+  }
+}
