@@ -5,7 +5,7 @@ import Header from "../components/Header";
 import Latest from "../components/Latest";
 import Image from "next/image";
 import Banner from "../components/Banner";
-import Headless from "../components/Headless";
+
 
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";

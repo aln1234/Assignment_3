@@ -9,7 +9,7 @@ function Latest({results}) {
     
   
     return (
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 grid-cols-1 gap-12 max-w-7xl">
             {
             results?.slice(0,16).map((result) => 
             (  <Card data={result} key={result.id}/>)

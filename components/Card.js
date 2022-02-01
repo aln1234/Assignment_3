@@ -6,7 +6,7 @@ function Card(data) {
     const {data:result} = data
   
     return (
-        <div className=" flex flex-row mt-4">
+        <div className=" ">
              <div className="" >
                  <div className="py-12 px-8 bg-red-400">
                  <h1 className="text-white font-mono text-4xl font-semibold">{result.title}</h1>

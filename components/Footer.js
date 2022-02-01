@@ -7,7 +7,7 @@ import Insta from "../images/insta.png"
 function Footer() {
     return (
       <>
-       <div className="relative flex justify-between  space-x-12 ml-[150px] pt-4  max-w-6xl">
+       <div className="relative flex justify-between  space-x-12 ml-[0px] px-4 md:ml-[150px] pt-4  md:max-w-6xl">
      
          <div className="mt-8">
          <div className=" relative  w-[140px] h-[40px]">
@@ -29,7 +29,7 @@ function Footer() {
            <h1 className="font-mono text-lg font-bold cursor-pointer hover:text-yellow-500">Services</h1>
            <h1 className="font-mono text-lg font-bold cursor-pointer hover:text-yellow-500 mt-8">Portfolio</h1>
          </div>
-         <div className="mt-12">
+         <div className="mt-12 ">
          <h1 className="font-mono text-lg font-bold  cursor-pointer hover:text-yellow-500">Company</h1>
          <h1 className="font-mono text-base font-light text-[#7f7f7f]  cursor-pointer hover:text-yellow-500 mt-2">About Us</h1>
          <h1 className="font-mono text-base font-light text-[#7f7f7f]  cursor-pointer hover:text-yellow-500 mt-2">Work With Us</h1>
